@@ -11,10 +11,10 @@ This project applies regression techniques to predict student performance using 
 
 To develop a regression model capable of predicting students' final grades (`G3`) based on input features such as:
 
-- Prior grades (`G1`, `G2`)
+- Prior grades
 - Study time
-- Absences
-- Failures
+- Sleeping hours
+- Sample Question paper solved
 - Demographic attributes
 
 ## 🧾 Dataset Description
@@ -22,13 +22,13 @@ To develop a regression model capable of predicting students' final grades (`G3`
 The dataset contains various attributes related to student demographics, academic performance, and background. A few important columns include:
 
 | Column       | Description                          |
-|--------------|--------------------------------------|
-| `G1`, `G2`   | Grades for first and second periods   |
-| `G3`         | Final grade (Target Variable)         |
-| `study_time` | Weekly study time                    |
-| `failures`   | Number of past class failures         |
-| `absences`   | Number of school absences             |
-| `sex`, `age` | Demographic information               |
+|--------------  |--------------------------------------|
+| `Hours Studied`| Hours studied by the student         |
+| `Previous Scores`| Marks scored by the student in the previous exam|
+| `Extracurricular Activities`   | If the student is enrolled in any extracurricular activities|
+| `Sleep Hours`     | Sleeping time for the particular student|
+| `Sample Question Papers Practiced`| Sample question paper practiced by the student|
+| `Performance Index`   | target Variable |
 
 ## 🧪 Methodology
 
